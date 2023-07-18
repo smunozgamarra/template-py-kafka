@@ -1,0 +1,8 @@
+pipeline_id: "test"
+source:
+  hosts: "localhost:9092"
+  topic: "test"
+destination:
+  hosts: "localhost:9092"
+  topic: "test1"
+  checkpoint: "C://Users//sergio.gamarra//utils"
